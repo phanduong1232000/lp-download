@@ -346,6 +346,9 @@ p {
 .bg-question .col-lg-7 {
   height: 60vh;
 }
+.bg-question p {
+  text-align: justify;
+}
 .question .title {
   color: rgb(255, 255, 255);
   font-size: 40px;
@@ -563,12 +566,31 @@ p {
   }
 }
 /* dowload =============================== */
-.dowload {
+.download {
   background-color: var(--background);
   display: flex;
   align-items: center;
   height: 100vh;
   position: relative;
+}
+.download .form-dow{
+  position: relative;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+.download .form-dow img {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.download .form-dow .video{
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  width: 700px;
+  z-index: 1;
+  height: 403px;
 }
 /* contact =============================== */
 .contact {
@@ -739,9 +761,6 @@ p {
   .chinhsach .chinhsach-box p .percent-box {
     font-size: 30px;
     font-weight: bold;
-  }
-  .contact {
-    margin-top: -255px;
   }
   /* accodion */
   .accordion-button {
@@ -948,5 +967,8 @@ br {
 }
 .about .absolute-about{
   display: none;
+}
+.read-more{
+  max-width: unset;
 }
 }
