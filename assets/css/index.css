@@ -235,6 +235,13 @@ p {
     text-shadow: 0 -50px 0 #8486a6;
   }
 }
+.anime{
+  animation: animed 2s linear alternate infinite;
+}
+@keyframes animed {
+  0%{transform: translateY(-20px);}
+  100%{transform: translateY(20px);}
+}
 /* ======================================== */
 .chinhsach {
   background: var(--background);
@@ -977,5 +984,8 @@ p {
     top: -4px;
     left: 0px;
     padding: 6px 12px;
+  }
+  .anime{
+    animation: none;
   }
 }
