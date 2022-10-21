@@ -4,8 +4,9 @@ $(document).ready(function() {
     scrollBar: true,
     navigation: true,
     scrollingSpeed: 0,
-    anchors: ['one', 'two', 'three', 'four', 'five','six', 'seven', 'eight'],
-    navigationTooltips: ['Giới Thiệu', 'Tổng Quan', 'Cách khắc phục','Sự khác nhau', 'Các ưu điểm', 'thử nghiệm', 'liên hệ', 'Kết luận'],
+    responsiveWidth: 600,
+    anchors: ['one', 'two', 'three', 'four', 'five','six', 'seven'],
+    navigationTooltips: ['Giới Thiệu', 'Tổng Quan', 'Cách khắc phục','Sự khác nhau', 'Các ưu điểm', 'thử nghiệm', 'liên hệ'],
   });
 });
 
