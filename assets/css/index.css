@@ -202,6 +202,7 @@ p {
 }
 .about .absolute-about{
   position: relative;
+  display: block;
 }
 .about .absolute-about i {
   color: white;
