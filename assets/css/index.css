@@ -670,11 +670,10 @@ p {
   white-space: nowrap;
 }
 .footer .absolute-footer {
-  background-color: #0c0f34;
+  background-color: #32355c52;
   padding: 20px 0px;
   text-align: center;
   color: white;
-  margin-top: 30px;
 }
 
 /* mobile reponsive css ======================== */
@@ -851,6 +850,9 @@ p {
 }
 .chinhsach .box .title-custom{
   padding: 0px;
+}
+footer.footer {
+  margin-top: -35px;
 }
 }
 @media (max-width:600px){
