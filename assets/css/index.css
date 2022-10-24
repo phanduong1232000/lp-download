@@ -207,7 +207,7 @@ p {
 .about .absolute-about i {
   color: white;
   position: absolute;
-  bottom: -100px;
+  bottom: 20px;
   font-size: 50px;
   left: 50%;
   transform: translate(-50%, -50%);
